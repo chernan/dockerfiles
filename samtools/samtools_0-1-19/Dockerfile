@@ -15,13 +15,13 @@
 #
 ################################################################
 
+# Set the base image to Ubuntu
+FROM ubuntu:14.04
+
 # File Author / Maintainer
 MAINTAINER Celine HERNANDEZ <chernand@biologie.ens.fr>
 
 ################################################################
-
-# Set the base image to Ubuntu
-FROM ubuntu:14.04
 
 # Update the repository sources list and upgrade packages
 RUN apt-get update
